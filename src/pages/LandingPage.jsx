@@ -13,7 +13,7 @@ export const LandingPage = () => {
                 <p className=" font-extralight text-xl text-primary squish">I'm a problem solver who thrives on continuous learning and collaboration. Most recently, I worked at Powerex as a full-stack developer. Prior to that, I developed web solutions for both personal projects and client needs.</p>
                 <Button destination={''} text={'More Information'}></Button>
             </section>
-            <Separator />
+            <Separator/>
             <section className=" flex flex-col gap-4">
                 <div>
                     <h2 className=" font-medium text-2xl text-primary squish">Personal Projects</h2>

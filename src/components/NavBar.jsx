@@ -4,7 +4,9 @@ export const NavBar = () => {
     return(
         <nav className=" py-15 w-[100%] flex justify-between items-center font-secondary font-medium text-[0.9rem]">
             <div>
-                <ul className=" cursor-pointer">js</ul>
+                <ul className=" cursor-pointer">
+                    <a href="/">js</a>
+                </ul>
             </div>
             <div className=" flex gap-3">
                 <ul className=" cursor-pointer">
