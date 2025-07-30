@@ -9,7 +9,7 @@ import { Footer } from './components/Footer'
 function App() {
 
   return (
-    <div className=' max-w-2xl lg:max-w-xl mx-auto '>
+    <div className=' max-w-2xl lg:max-w-xl mx-auto px-4 md:px-0'>
         <NavBar/>
         <Routes>
             <Route path='/' element={<LandingPage/>}></Route>

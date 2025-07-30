@@ -10,7 +10,7 @@ export const LandingPage = () => {
                     <h1 className=" font-medium text-4xl text-primary squish">Hey, I'm Sam</h1>
                     <h2 className=" font-light text-2xl text-tertiary squish">A software developer based in Vancouver BC.</h2>
                 </div>
-                <p className=" font-extralight text-xl text-primary squish">I'm a problem solver who thrives on continuous learning and collaboration. Most recently, I worked at Powerex as a full-stack developer. Prior to that, I developed web solutions for both personal projects and client needs.</p>
+                <p className=" font-extralight text-xl text-primary squish max-md:text-[1.1rem]">I'm a problem solver who thrives on continuous learning and collaboration. Most recently, I worked at Powerex as a full-stack developer. Prior to that, I developed web solutions for both personal projects and client needs.</p>
                 <Button destination={'/information'} text={'More Information'}></Button>
             </section>
             <Separator/>
