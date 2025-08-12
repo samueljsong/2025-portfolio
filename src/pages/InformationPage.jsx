@@ -14,10 +14,10 @@ export const InformationPage = () => {
                 Hi, I’m Samuel, a software developer who enjoys writing clean, functional code and building reliable solutions.
             </p>
             <p className=" font-extralight text-[1.1rem] text-primary squish">
-                I have a year of professional experience as a full stack developer at Powerex, where I contributed to internal tools that support energy trading operations.
+                I have a year of professional experience as a full stack developer at Powerex, where I contributed to crucial internal applications, services and API's that support energy trading operations.
             </p>
             <p className=" font-extralight text-[1.1rem] text-primary squish">
-                 On the side, I also work with clients — most recently designing and developing a full-featured website and event/video management system for Aldergrove Church.
+                 On the side, I also work with clients. Most recently I designed and developed a full-featured website and event/video management system for Aldergrove Church.
             </p>
             <p className=" font-extralight text-[1.1rem] text-primary squish">
                 Before that, I created projects like GreenBanana, a media-sharing platform built with AWS RDS and Cloudinary, and Flaker, where I focused on building efficient REST APIs and optimizing SQL queries for performance. Whether it's backend architecture or responsive UI, I enjoy working across the stack to bring ideas to life.

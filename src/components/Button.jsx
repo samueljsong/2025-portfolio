@@ -12,6 +12,7 @@ export const Button = ({destination, text}) => {
     return(
         <div onClick={onButtonClick} 
         className=" 
+            group
             flex
             mt-4 py-3 px-4 
             bg-primary 
@@ -25,9 +26,12 @@ export const Button = ({destination, text}) => {
             cursor-pointer
             align-items-center
             gap-2
-            justify-center">
+            justify-center
+            hover:bg-secondary
+            transition-colors
+            duration-200">
             <p>{text}</p>
-            <img src={arrow} alt="" className=" h-4 fill-white"/>
+            <img src={arrow} alt="" className=" h-4 fill-white group-hover:translate-x-1.5 duration-200"/>
         </div>
     )
 }

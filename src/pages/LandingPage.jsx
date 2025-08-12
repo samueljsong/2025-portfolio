@@ -1,5 +1,7 @@
 import { Button } from "../components/Button"
+import { ProjectCard } from "../components/ProjectCard"
 import { Separator } from "../components/Separator"
+import projects from "../data/ProjectData"
 
 export const LandingPage = () => {
 
@@ -7,19 +9,41 @@ export const LandingPage = () => {
         <div className=" w-[100%]">
             <section className=" flex flex-col gap-4">
                 <div>
-                    <h1 className=" font-medium text-4xl text-primary squish">Hey, I'm Sam</h1>
-                    <h2 className=" font-light text-2xl text-tertiary squish">A software developer based in Vancouver BC.</h2>
+                    <h1 className=" font-medium text-4xl text-primary squish">
+                        Hey, I'm Sam
+                    </h1>
+                    <h2 className=" font-light text-2xl text-tertiary squish">
+                        A software developer based in Vancouver BC.
+                    </h2>
                 </div>
-                <p className=" font-extralight text-xl text-primary squish max-md:text-[1.1rem]">I'm a problem solver who thrives on continuous learning and collaboration. Currently, I am working at Powerex as a full-stack developer. Prior to that, I developed web solutions for both personal projects and client needs.</p>
+                <p className=" font-extralight text-xl text-primary squish max-md:text-[1.1rem]">
+                    I'm a problem solver who thrives on continuous learning and collaboration. Currently, 
+                    I am working at Powerex as a full-stack developer. Prior to that, I did freelance work, 
+                    developing web solutions for both personal and client needs.
+                </p>
                 <Button destination={'/information'} text={'More Information'}></Button>
             </section>
             <Separator/>
             <section className=" flex flex-col gap-4">
                 <div>
-                    <h2 className=" font-medium text-2xl text-primary squish">Personal Projects</h2>
-                    <p className=" font-extralight text-[1.1rem] text-tertiary squish">Below is a selection of recent projects that I've worked on.</p>
+                    <h2 className=" font-medium text-2xl text-primary squish">
+                        Personal Projects
+                    </h2>
+                    <p className=" font-extralight text-[1.1rem] text-tertiary squish">
+                        Below is a selection of recent projects that I've worked on.
+                    </p>
+                </div>
+                <div className=" flex flex-col gap-8 mb-8">
+                    {
+                        projects.map((project, index) => {
+                            return(
+                                <ProjectCard {...project} key={index}/>
+                            )
+                        })
+                    }
                 </div>
                 <Button destination={'/projects'} text={'View older projects'} />
+                <span className=" mt-8"></span>
             </section>
         </div>
     )
