@@ -13,7 +13,7 @@ export const LandingPage = () => {
                         Hey, I'm Sam
                     </h1>
                     <h2 className=" font-light text-2xl text-tertiary squish">
-                        A software developer based in Vancouver BC.
+                        A software developer based in BC.
                     </h2>
                 </div>
                 <p className=" font-extralight text-xl text-primary squish max-md:text-[1.1rem]">
