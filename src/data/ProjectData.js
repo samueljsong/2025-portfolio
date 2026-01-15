@@ -1,5 +1,5 @@
 import aldergroveWebsite from '../assets/aldergrove-website.png'
-import flakerWebsite from '../assets/flaker-website.png'
+import quickurl from '../assets/quickurl.png'
 import greenbananaWebsite from '../assets/greenbanana-website.png'
 
 const projects = [
@@ -10,10 +10,10 @@ const projects = [
         link: "https://aldergroveimmanuel.ca/"
     },
     {
-        image: flakerWebsite,
-        title: "Flaker",
-        description: "Flaker is a web application designed for managing events collaboratively with a group of friends.",
-        link: "https://flaker.netlify.app"
+        image: quickurl,
+        title: "Quick Url",
+        description: "A Chrome extension used to define simple shortcuts that instantly redirect to your chosen sites.",
+        link: "https://chromewebstore.google.com/detail/quickurl/gkfcclnbpckcbkpachbinpbjgonhjlep"
     },
     {
         image: greenbananaWebsite,

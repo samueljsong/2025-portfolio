@@ -6,7 +6,7 @@ const projects = [
         title: "Powerex",
         position: "Full Stack Developer",
         startDate: "January 2025",
-        endDate: "Present",
+        endDate: "December 2025",
         image: powerex,
     },
     {
