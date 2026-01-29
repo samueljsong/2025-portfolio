@@ -17,7 +17,7 @@ const projects = [
     },
     {
         image: greenbananaWebsite,
-        title: "GreenBanana",
+        title: "GreenBanana (Undergoing Redevelopment)",
         description: "A media-sharing platform that allows users to upload, share, and view images and videos.",
         link: "https://greenbanana.onrender.com/"
     },
